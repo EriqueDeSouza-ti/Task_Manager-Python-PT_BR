@@ -2,7 +2,7 @@ from customtkinter import *
 
 
 class WinConfig(CTkFrame):
-    def __init__(self, master):
+    def __init__(self, master, user):
         super().__init__(master, corner_radius=0)
         self.dark_theme = master.dark_theme
 
